@@ -8,10 +8,10 @@ import TentangSaya from "./TentangSaya";
 
 const Utama = () => {
   <Routes>
-    <Route exact path="/" component={Beranda} />
-    <Route path="/TentangSaya" component={TentangSaya} />
-    <Route path="/Karya" component={Karya} />
-    <Route path="/Kontak" component={Kontak} />
+    <Route exact path="/" element={<Beranda />} />
+    <Route path="/TentangSaya" element={<TentangSaya />} />
+    <Route path="/Karya" element={<Karya />} />
+    <Route path="/Kontak" element={<Kontak />} />
   </Routes>;
 };
 
